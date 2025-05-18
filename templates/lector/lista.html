@@ -1,0 +1,114 @@
+{% extends 'base.html' %}
+
+
+{% block content %}
+
+{% include 'includes/header.html' %}
+<br>
+<br>
+<br>
+
+<div class="container">
+    <div class="row" >
+        <div class="col-12" >
+            <h1 class="text-center" style="background-color:red">Lectores</h1>
+        </div>
+    </div>
+    <form action="" method="get">{% csrf_token %}
+        <div class="row justify-content">
+                <div class="col-8 input-group">
+                    <input type="text" class="form-control" id="kword" name="kword" placeholder="libro..." aria-label="" aria-describedby="basic-addon1">
+                    <div class="input-group-append">
+                        <button class="btn btn-success" type="submit">Buscar</button>
+                    </div>
+                </div>
+                <div class="col-4">
+                        <a class="btn btn-primary btn-block" href="{% url 'lector_app:agregar-lectores' %}">Agregar Lectores</a>
+
+                </div>
+            </div>
+        </form>
+
+
+    <div class="row">
+        <div class="col-12">
+
+            <table class="table table-responsive-lg table-striped table-bordered table-hover ">
+
+                    <tr class="table-primary">
+                    <th>ID</th>
+                    <th>nombre</th>
+                    <th>apellidos</th>
+                    <th>nacionalidad</th>
+                    <th>edad</th>
+                    <th class="text-center">Accion</th>
+                  </tr>
+
+                <tbody>
+                    {% for a in lectores %}
+                  <tr>
+                    <td>{{a.id}}</td>
+                    <td>{{a.nombre}}</td>
+                    <td>{{a.apellidos}}</td>
+                    <td>{{a.nacionalidad}}</td>
+                    <td>{{a.edad}}</td>
+
+                    <!-- <td>{{a.autores.all}}</td> -->
+                    <!-- <td>
+                        {% for h in a.autores.all %}
+                          <li>{{ h.nombre }} - {{h.apellidos}}</li>
+                        {% endfor %}
+                    </td> -->
+
+
+                    <td class="text-center">
+
+                        <!-- <a class="btn btn-info" href="{% url 'libro_app:detalle-libros' a.id %}">Ver</a> -->
+                        <a class="btn btn-info" href="{% url 'lector_app:detalle-lectores' a.id %}">Ver</a>
+                        <a class="btn btn-warning" href="{% url 'lector_app:modificar-lectores' a.id %}">Editar </a>
+                        <a class="btn btn-danger" href="{% url 'lector_app:eliminar-lectores' a.id %}">Eliminar </a>
+                    </td>
+
+                  </tr>
+                  {% endfor %}
+
+                </tbody>
+            </table>
+            {% if is_paginated %}
+            <nav aria-label="...">
+                <ul class="pagination">
+                    {% if page_obj.has_previous %}
+                    <li class="page-item">
+                        <!-- <a href="?page={{page_obj.previous_page_number}}">Atras</a> -->
+                        <a class="page-link" href="?page={{page_obj.previous_page_number}}" tabindex="-1">Atras</a>
+                    </li>
+                    {% endif %}
+                    {% for pagina in paginator.page_range %}
+                    {% ifequal pagina page_obj.number %}
+                    <!-- <li class="current"><span class="show-for-sr">You're on page</span> {{ pagina }}</li> -->
+                    <li class="page-item active">
+                    <a class="page-link" href="#!"> {{ pagina }}<span class="sr-only">(current)</span></a>
+                    </li>
+                    {% else %}
+
+                    <li class="page-item"><a class="page-link" href="?page={{pagina}}">{{ pagina }}</a></li>
+                    {% endifequal %}
+                    {% endfor %}
+
+                    {% if page_obj.has_next %}
+                    <li class="page-item">
+                        <!-- <a href="?page={{page_obj.next_page_number}}">Siguiente</a> -->
+                        <a class="page-link" href="?page={{page_obj.next_page_number}}">Siguiente</a>
+                    </li>
+                    {% endif %}
+                </ul>
+            </nav>
+            {% endif %}
+
+        </div>
+        </div>
+    </div>
+</div>
+
+
+{% endblock content %}

@@ -1,0 +1,112 @@
+[
+  {
+    "model": "autor.autor",
+    "pk": 1,
+    "fields": {
+      "nombre": "Gabriel",
+      "apellidos": "García Márquez",
+      "nacionalidad": "Colombiana",
+      "edad": 87,
+      "seudonimo": "Gabo"
+    }
+  },
+  {
+    "model": "autor.autor",
+    "pk": 2,
+    "fields": {
+      "nombre": "Mario",
+      "apellidos": "Vargas Llosa",
+      "nacionalidad": "Peruana",
+      "edad": 88,
+      "seudonimo": ""
+    }
+  },
+  {
+    "model": "autor.autor",
+    "pk": 3,
+    "fields": {
+      "nombre": "Isabel",
+      "apellidos": "Allende",
+      "nacionalidad": "Chilena",
+      "edad": 82,
+      "seudonimo": ""
+    }
+  },
+  {
+    "model": "autor.autor",
+    "pk": 4,
+    "fields": {
+      "nombre": "Jorge Luis",
+      "apellidos": "Borges",
+      "nacionalidad": "Argentina",
+      "edad": 86,
+      "seudonimo": ""
+    }
+  },
+  {
+    "model": "autor.autor",
+    "pk": 5,
+    "fields": {
+      "nombre": "Pablo",
+      "apellidos": "Neruda",
+      "nacionalidad": "Chilena",
+      "edad": 69,
+      "seudonimo": "Pablo Neruda"
+    }
+  },
+  {
+    "model": "autor.autor",
+    "pk": 6,
+    "fields": {
+      "nombre": "Octavio",
+      "apellidos": "Paz",
+      "nacionalidad": "Mexicana",
+      "edad": 84,
+      "seudonimo": ""
+    }
+  },
+  {
+    "model": "autor.autor",
+    "pk": 7,
+    "fields": {
+      "nombre": "Laura",
+      "apellidos": "Esquivel",
+      "nacionalidad": "Mexicana",
+      "edad": 74,
+      "seudonimo": ""
+    }
+  },
+  {
+    "model": "autor.autor",
+    "pk": 8,
+    "fields": {
+      "nombre": "Julio",
+      "apellidos": "Cortázar",
+      "nacionalidad": "Argentina",
+      "edad": 69,
+      "seudonimo": ""
+    }
+  },
+  {
+    "model": "autor.autor",
+    "pk": 9,
+    "fields": {
+      "nombre": "Carlos",
+      "apellidos": "Fuentes",
+      "nacionalidad": "Mexicana",
+      "edad": 83,
+      "seudonimo": ""
+    }
+  },
+  {
+    "model": "autor.autor",
+    "pk": 10,
+    "fields": {
+      "nombre": "Rómulo",
+      "apellidos": "Gallegos",
+      "nacionalidad": "Venezolana",
+      "edad": 84,
+      "seudonimo": ""
+    }
+  }
+]

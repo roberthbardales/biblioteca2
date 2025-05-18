@@ -1,0 +1,202 @@
+[
+  {
+    "model": "lector.lector",
+    "pk": 1,
+    "fields": {
+      "nombre": "Juan",
+      "apellidos": "Pérez",
+      "nacionalidad": "Mexicana",
+      "edad": 30
+    }
+  },
+  {
+    "model": "lector.lector",
+    "pk": 2,
+    "fields": {
+      "nombre": "María",
+      "apellidos": "Gómez",
+      "nacionalidad": "Colombiana",
+      "edad": 25
+    }
+  },
+  {
+    "model": "lector.lector",
+    "pk": 3,
+    "fields": {
+      "nombre": "Carlos",
+      "apellidos": "Rodríguez",
+      "nacionalidad": "Argentina",
+      "edad": 40
+    }
+  },
+  {
+    "model": "lector.lector",
+    "pk": 4,
+    "fields": {
+      "nombre": "Laura",
+      "apellidos": "Martínez",
+      "nacionalidad": "Española",
+      "edad": 22
+    }
+  },
+  {
+    "model": "lector.lector",
+    "pk": 5,
+    "fields": {
+      "nombre": "Pedro",
+      "apellidos": "Sánchez",
+      "nacionalidad": "Peruana",
+      "edad": 35
+    }
+  },
+  {
+    "model": "lector.lector",
+    "pk": 6,
+    "fields": {
+      "nombre": "Ana",
+      "apellidos": "López",
+      "nacionalidad": "Chilena",
+      "edad": 28
+    }
+  },
+  {
+    "model": "lector.lector",
+    "pk": 7,
+    "fields": {
+      "nombre": "Diego",
+      "apellidos": "Hernández",
+      "nacionalidad": "Venezolana",
+      "edad": 32
+    }
+  },
+  {
+    "model": "lector.lector",
+    "pk": 8,
+    "fields": {
+      "nombre": "Sofía",
+      "apellidos": "Ramírez",
+      "nacionalidad": "Uruguaya",
+      "edad": 27
+    }
+  },
+  {
+    "model": "lector.lector",
+    "pk": 9,
+    "fields": {
+      "nombre": "Javier",
+      "apellidos": "Fernández",
+      "nacionalidad": "Cubana",
+      "edad": 45
+    }
+  },
+  {
+    "model": "lector.lector",
+    "pk": 10,
+    "fields": {
+      "nombre": "Isabela",
+      "apellidos": "Díaz",
+      "nacionalidad": "Dominicana",
+      "edad": 21
+    }
+  },
+    {
+    "model": "lector.lector",
+    "pk": 11,
+    "fields": {
+      "nombre": "Andrés",
+      "apellidos": "Ruiz",
+      "nacionalidad": "Ecuatoriana",
+      "edad": 31
+    }
+  },
+  {
+    "model": "lector.lector",
+    "pk": 12,
+    "fields": {
+      "nombre": "Valentina",
+      "apellidos": "Paredes",
+      "nacionalidad": "Boliviana",
+      "edad": 26
+    }
+  },
+  {
+    "model": "lector.lector",
+    "pk": 13,
+    "fields": {
+      "nombre": "Martín",
+      "apellidos": "Guzmán",
+      "nacionalidad": "Paraguaya",
+      "edad": 38
+    }
+  },
+  {
+    "model": "lector.lector",
+    "pk": 14,
+    "fields": {
+      "nombre": "Camila",
+      "apellidos": "Flores",
+      "nacionalidad": "Hondureña",
+      "edad": 23
+    }
+  },
+  {
+    "model": "lector.lector",
+    "pk": 15,
+    "fields": {
+      "nombre": "Sebastián",
+      "apellidos": "Ortega",
+      "nacionalidad": "Guatemalteca",
+      "edad": 29
+    }
+  },
+  {
+    "model": "lector.lector",
+    "pk": 16,
+    "fields": {
+      "nombre": "Daniela",
+      "apellidos": "Jiménez",
+      "nacionalidad": "Salvadoreña",
+      "edad": 24
+    }
+  },
+  {
+    "model": "lector.lector",
+    "pk": 17,
+    "fields": {
+      "nombre": "Alejandro",
+      "apellidos": "Vargas",
+      "nacionalidad": "Nicaragüense",
+      "edad": 33
+    }
+  },
+  {
+    "model": "lector.lector",
+    "pk": 18,
+    "fields": {
+      "nombre": "Valeria",
+      "apellidos": "Castro",
+      "nacionalidad": "Costarricense",
+      "edad": 20
+    }
+  },
+  {
+    "model": "lector.lector",
+     "pk": 19,
+    "fields": {
+      "nombre": "Samuel",
+      "apellidos": "Moreno",
+      "nacionalidad": "Panameña",
+      "edad": 36
+    }
+  },
+  {
+    "model": "lector.lector",
+    "pk": 20,
+    "fields": {
+      "nombre": "Gabriela",
+      "apellidos": "Rojas",
+      "nacionalidad": "Puertorriqueña",
+      "edad": 27
+    }
+  }
+]

@@ -1,0 +1,79 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+{% include 'includes/header.html' %}
+<br>
+<br>
+<br>
+<!-- <h1>{{ejemplo}}</h1> -->
+
+</h1>
+</h1>
+<div class="container">
+    <div class="row">
+        <div class="col-12">
+            <h1 class="text-center">Libro: {{ libro.titulo}}</h1>
+        </div>
+    </div>
+
+<br>
+    </div>
+    <div class="row">
+        <div class="col-12 ">
+            <table class="table table-responsive-lg table-striped table-bordered table-hover ">
+                  <tr class="table-primary ">
+                    <tr>
+                      <th class="text-center" colspan="2">
+                        <h4>
+                          Datos Personales
+                        </h4>
+                      </th>
+                    </tr>
+                    <th>Codigo</th>
+                    <td>{{libro.id}}</td>
+                    <tr>
+                    <th>Categoria</th>
+                    <td>{{libro.categoria}}</td>
+                    <tr>
+                      <th>Autores</th>
+                      <td>
+                        {% for item in libro.autores.all %}
+                        <li>
+                          {{item.nombre}} {{item.apellidos}}
+                        </li>
+                        {% endfor %}
+                      </td>
+                    </tr>
+                    <tr>
+                      <th>Fecha</th>
+                      <td>{{libro.fecha}}</td>
+                    </tr>
+                    <tr>
+                      <!-- <th>Portada</th>
+                      <td>{{libro.portada}}</td>
+                    </tr> -->
+                      <th>Portada</th>
+                      <td><img src="{{libro.portada.url}}" class="img-fluid" width="400px" height="300px" alt=""></td>
+                    </tr>
+                    <tr>
+                      <th>Visitas</th>
+                      <td>{{libro.visitas}}</td>
+                    </tr>
+                      <th>Stok</th>
+                      <td>{{libro.stok}}</td>
+                    </tr>
+
+                  </tr>
+            </table>
+        </div>
+    </div>
+    <div class="row justify-content-center">
+      <!-- <a class="btn btn-success" href="{% url 'libro_app:listar-libros' %}">Regresar</a> -->
+
+      <input type="button" class="btn btn-success" value="Página anterior" onClick="history.go(-1);">
+    </div>
+    <br>
+</div>
+
+
+{% endblock content %}

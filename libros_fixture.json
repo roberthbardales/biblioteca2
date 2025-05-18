@@ -1,0 +1,132 @@
+[
+  {
+    "model": "libro.libro",
+    "pk": 1,
+    "fields": {
+      "categoria": 1,
+      "titulo": "Cien años de soledad",
+      "fecha": "1967-05-30",
+      "portada": null,
+      "visitas": 1500,
+      "stok": 10,
+      "autores": [1]
+    }
+  },
+  {
+    "model": "libro.libro",
+    "pk": 2,
+    "fields": {
+      "categoria": 2,
+      "titulo": "La ciudad y los perros",
+      "fecha": "1963-10-10",
+      "portada": null,
+      "visitas": 1200,
+      "stok": 7,
+      "autores": [2]
+    }
+  },
+  {
+    "model": "libro.libro",
+    "pk": 3,
+    "fields": {
+      "categoria": 4,
+      "titulo": "La casa de los espíritus",
+      "fecha": "1982-10-10",
+      "portada": null,
+      "visitas": 980,
+      "stok": 5,
+      "autores": [3]
+    }
+  },
+  {
+    "model": "libro.libro",
+    "pk": 4,
+    "fields": {
+      "categoria": 5,
+      "titulo": "Ficciones",
+      "fecha": "1944-01-01",
+      "portada": null,
+      "visitas": 800,
+      "stok": 4,
+      "autores": [4]
+    }
+  },
+  {
+    "model": "libro.libro",
+    "pk": 5,
+    "fields": {
+      "categoria": 3,
+      "titulo": "Veinte poemas de amor y una canción desesperada",
+      "fecha": "1924-06-04",
+      "portada": null,
+      "visitas": 1700,
+      "stok": 12,
+      "autores": [5]
+    }
+  },
+  {
+    "model": "libro.libro",
+    "pk": 6,
+    "fields": {
+      "categoria": 3,
+      "titulo": "El laberinto de la soledad",
+      "fecha": "1950-01-01",
+      "portada": null,
+      "visitas": 950,
+      "stok": 6,
+      "autores": [6]
+    }
+  },
+  {
+    "model": "libro.libro",
+    "pk": 7,
+    "fields": {
+      "categoria": 8,
+      "titulo": "Como agua para chocolate",
+      "fecha": "1989-01-01",
+      "portada": null,
+      "visitas": 1100,
+      "stok": 8,
+      "autores": [7]
+    }
+  },
+  {
+    "model": "libro.libro",
+    "pk": 8,
+    "fields": {
+      "categoria": 7,
+      "titulo": "Final del juego",
+      "fecha": "1956-01-01",
+      "portada": null,
+      "visitas": 770,
+      "stok": 4,
+      "autores": [8]
+    }
+  },
+  {
+    "model": "libro.libro",
+    "pk": 9,
+    "fields": {
+      "categoria": 6,
+      "titulo": "La muerte de Artemio Cruz",
+      "fecha": "1962-01-01",
+      "portada": null,
+      "visitas": 890,
+      "stok": 5,
+      "autores": [9]
+    }
+  },
+  {
+    "model": "libro.libro",
+    "pk": 10,
+    "fields": {
+      "categoria": 6,
+      "titulo": "Doña Bárbara",
+      "fecha": "1929-01-01",
+      "portada": null,
+      "visitas": 1000,
+      "stok": 9,
+      "autores": [10]
+    }
+  }
+]
